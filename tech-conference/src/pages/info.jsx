@@ -29,7 +29,7 @@ function EventInfo() {
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-extrabold leading-[1.1] mb-6 tracking-tight text-white drop-shadow-lg">
             Shape the Future of <br className="hidden sm:block" />
-            <span className="inline-block mt-2 bg-gradient-to-r from-accent-primary via-purple-400 to-accent-secondary bg-clip-text text-transparent bg-[length:200%_auto] animate-[shine_4s_linear_infinite]">
+            <span className="inline-block mt-2 bg-gradient-to-r from-accent-primary via-purple-400 to-accent-secondary bg-clip-text text-transparent bg-[length:200%_auto]">
               Technology.
             </span>
           </h1>
@@ -40,7 +40,7 @@ function EventInfo() {
 
           <div className="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
             <Link to="/register" className="w-full sm:w-auto">
-              <button className="w-full sm:w-auto relative group overflow-hidden flex justify-center items-center gap-3 py-4 px-10 rounded-2xl font-medium text-white shadow-[0_4px_25px_rgba(139,92,246,0.4)] transition-all hover:shadow-[0_8px_35px_rgba(139,92,246,0.6)] hover:-translate-y-1">
+              <button className="w-full bg-purple-500 sm:w-auto relative group overflow-hidden flex justify-center items-center gap-3 py-4 px-10 rounded-2xl font-medium text-white shadow-[0_4px_25px_rgba(139,92,246,0.4)] transition-all hover:shadow-[0_8px_35px_rgba(139,92,246,0.6)] hover:-translate-y-1">
                 <div className="absolute inset-0 bg-gradient-to-r from-accent-primary to-accent-secondary transition-all duration-300 group-hover:scale-[1.05]"></div>
                 <span className="relative flex items-center gap-2 text-lg font-semibold">
                   Secure Your Spot
