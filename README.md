@@ -4,6 +4,7 @@ A web-based Tech Conference Registration System built using React, Vite, React R
 
 The system allows users to view conference information, register for the event, review their registration details, and confirm participation. 
 The application also detects returning users by storing registration data locally in the browser.
+---
 
 ## Features
 
@@ -120,6 +121,6 @@ Storing data using browser local storage
 Handling returning users automatically
 
 ---
-##Author
+## Author
 
 Cynthia Iradukunda
