@@ -4,6 +4,7 @@ A web-based Tech Conference Registration System built using React, Vite, React R
 
 The system allows users to view conference information, register for the event, review their registration details, and confirm participation. 
 The application also detects returning users by storing registration data locally in the browser.
+
 ---
 
 ## Features
@@ -19,6 +20,8 @@ The application also detects returning users by storing registration data locall
 . Register button
 . Registration Form
 
+---
+
 ## Users can submit their information through a form.
 
 Fields include:
@@ -31,6 +34,8 @@ Fields include:
 - Additional Notes
 
 The form uses React controlled components to manage user input.
+
+---
 
 ## Registration Review
 
@@ -53,6 +58,7 @@ If registration data exists, the user is redirected to a page displaying their s
 
 Users can also cancel their registration.
 
+---
 ## Technologies Used
 
 - React
@@ -62,6 +68,7 @@ Users can also cancel their registration.
 - JavaScript
 - Browser Local Storage
 
+---
 ## Project Structure
 
 tech-conference-registration
@@ -82,6 +89,7 @@ tech-conference-registration
 ├── tailwind.config.js
 └── README.md
 
+---
 ## Installation
 
 1. Clone the repository
@@ -110,6 +118,7 @@ Receives confirmation message
 
 Returning users can view saved registration
 
+---
 ## Learning Objectives
 
 This project demonstrates:
