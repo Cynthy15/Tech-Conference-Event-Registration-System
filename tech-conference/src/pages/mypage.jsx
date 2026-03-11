@@ -38,7 +38,7 @@ function MyRegistration() {
   const valueClass = "text-[1.1rem] font-medium text-white";
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-8 py-12">
+    <div className=" text-white min-h-screen flex items-center justify-center p-8 py-12">
       <div className="bg-[#13141f]/60 backdrop-blur-xl border border-white/10 rounded-2xl p-10 w-full max-w-[580px] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden animate-slideFadeIn shine-effect">
 
         <div className="text-center mb-8">

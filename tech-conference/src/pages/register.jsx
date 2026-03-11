@@ -54,7 +54,7 @@ function Register() {
               className={inputClass}
               name="name"
               value={formData.name}
-              placeholder="e.g. Jane Doe"
+              placeholder="e.g. Cynthy Niganze"
               onChange={handleChange}
               required
             />
@@ -67,7 +67,7 @@ function Register() {
               name="email"
               type="email"
               value={formData.email}
-              placeholder="jane@example.com"
+              placeholder="cynthy@example.com"
               onChange={handleChange}
               required
             />

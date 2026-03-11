@@ -14,15 +14,10 @@ function EventInfo() {
   return (
     <div className="text-white min-h-screen pt-32 pb-16 px-6 flex flex-col justify-center items-center overflow-hidden">
 
-      {/* Background ambient glow specific to hero */}
-      <div className="absolute  w-[500px] h-[500px] bg-accent-primary/20 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-accent-secondary/15 rounded-full blur-[150px] -z-10 pointer-events-none"></div>
-
       <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24 animate-slideFadeIn relative z-10">
 
-        {/* Left Column: Hero Text */}
         <div className="flex-1 text-center lg:text-left flex flex-col items-center lg:items-start">
-          <div className="inline-flex items-center gap-2.5 py-2 px-4 bg-accent-primary/10 text-accent-primary rounded-full mb-8 border border-accent-primary/20 backdrop-blur-sm shadow-[0_0_20px_rgba(139,92,246,0.15)]">
+          <div className="inline-flex items-center gap-2.5 py-2 px-4 bg-accent-primary/10 text-accent-primary rounded-full mb-8 border border-accent-primary/20 backdrop-blur-sm">
             <span className="w-2 h-2 rounded-full bg-accent-primary animate-pulse shadow-[0_0_8px_var(--color-accent-primary)]"></span>
             <span className="text-sm font-semibold tracking-wide uppercase">TechEvent 2026</span>
           </div>
@@ -56,10 +51,9 @@ function EventInfo() {
           </div>
         </div>
 
-        {/* Right Column: Key Topics Highlights */}
+        
         <div className="flex-1 w-full max-w-lg lg:max-w-none relative perspective-1000">
-          <div className="absolute -inset-0.5 bg-gradient-to-br from-accent-primary/30 to-accent-secondary/30 blur-2xl rounded-3xl -z-10 opacity-70"></div>
-
+          
           <div className="bg-black/40 backdrop-blur-2xl border border-white/10 rounded-3xl p-8 shadow-2xl relative overflow-hidden shine-effect">
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-2xl font-heading font-bold text-white">Conference Tracks</h3>
@@ -69,7 +63,7 @@ function EventInfo() {
             <div className="grid gap-4">
               <div className="group flex items-start gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/10 transition-all cursor-pointer hover:-translate-y-1">
                 <div className="w-12 h-12 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center shrink-0 border border-purple-500/30 group-hover:bg-purple-500/30 transition-colors">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /></svg>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-1">Artificial Intelligence</h4>
