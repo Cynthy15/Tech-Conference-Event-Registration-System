@@ -98,7 +98,7 @@ function Register() {
           <div className="relative">
             <label className={labelClass}>Ticket Type</label>
             <select
-              className={`${inputClass} appearance-none bg-[url('data:image/svg+xml;charset=UTF-8,%3csvg_xmlns=\"http://www.w3.org/2000/svg\"_viewBox=\"0_0_24_24\"_fill=\"none\"_stroke=\"%2394a3b8\"_stroke-width=\"2\"_stroke-linecap=\"round\"_stroke-linejoin=\"round\"%3e%3cpolyline_points=\"6_9_12_15_18_9\"%3e%3c/polyline%3e%3c/svg%3e')] bg-no-repeat bg-[position:right_1rem_center] bg-[length:1em]`}
+              className={`${inputClass} appearance-none `}
               name="ticket"
               value={formData.ticket}
               onChange={handleChange}
@@ -134,8 +134,7 @@ function Register() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
-            <button
-              type="button"
+            <button type="button"
               className="w-full sm:w-1/3 py-3.5 px-6 rounded-xl font-medium text-white bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all text-center"
               onClick={() => navigate("/")}
             >
@@ -143,7 +142,7 @@ function Register() {
             </button>
             <button
               type="submit"
-              className="w-full sm:w-2/3 flex justify-center items-center gap-2 py-3.5 px-6 rounded-xl font-medium text-white bg-gradient-to-br from-accent-primary to-accent-secondary hover:-translate-y-0.5 active:translate-y-0.5 transition-all shadow-[0_4px_15px_rgba(139,92,246,0.4)] hover:shadow-[0_8px_25px_rgba(139,92,246,0.5)]"
+              className="w-full sm:w-2/3 flex justify-center items-center gap-2 py-3.5 px-6 rounded-xl font-medium text-white bg-gradient-to-br from-accent-primary to-accent-secondary hover:-translate-y-0.5 active:translate-y-0.5 transition-all"
             >
               Review Registration
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>

@@ -6,12 +6,6 @@ function Confirmation() {
     <div className=" text-white min-h-screen flex items-center justify-center p-8 py-12">
       <div className="bg-[#13141f]/60 backdrop-blur-xl border border-white/10 rounded-2xl py-16 px-10 w-full max-w-[580px] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden animate-slideFadeIn shine-effect text-center">
 
-        <div className="w-20 h-20 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-8 border-2 border-green-500/30 text-green-500 animate-[scaleIn_0.5s_cubic-bezier(0.175,0.885,0.32,1.275)_forwards]">
-          <svg className="w-10 h-10 opacity-0 animate-[drawCheck_0.6s_ease-out_0.3s_forwards]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-
         <h1 className="bg-gradient-to-br from-text-primary to-text-muted bg-clip-text text-transparent mb-4 text-center text-4xl leading-tight">
           Registration Confirmed!
         </h1>
